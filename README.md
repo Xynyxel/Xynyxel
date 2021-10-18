@@ -14,7 +14,10 @@
 </a>
 </div>
   
-    <img src="https://wakatime.com/share/@207f8f8e-8ddd-4a3f-917c-092d65854bd6/1290885d-b4e2-4fef-8364-60083bd54c21.svg"/>
+  
+My Coding Activity
+<hr/>
+<img src="https://wakatime.com/share/@207f8f8e-8ddd-4a3f-917c-092d65854bd6/1290885d-b4e2-4fef-8364-60083bd54c21.svg" height="300px" width="300px">
 
 </body>  
 </html>
