@@ -13,6 +13,26 @@
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
 </a>
 </div>
+  
+    <!--START_SECTION:waka-->
+      name: Waka Readme
+
+      on:
+        schedule:
+          # Runs at 12am IST
+          - cron: '30 18 * * *'
+        workflow_dispatch:
+      jobs:
+        update-readme:
+          name: Update Readme with Metrics
+          runs-on: ubuntu-latest
+          steps:
+            - uses: anmol098/waka-readme-stats@master
+              with:
+                WAKATIME_API_KEY: ${{ 26244547-c600-4d56-a7a7-4a590ddd9ad3 }}
+                GH_TOKEN: ${{ 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 }}
+
+    <!--END_SECTION:waka-->
 
 </body>  
 </html>
