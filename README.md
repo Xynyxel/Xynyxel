@@ -14,25 +14,7 @@
 </a>
 </div>
   
-    <!--START_SECTION:waka-->
-      name: Waka Readme
-
-      on:
-        schedule:
-          # Runs at 12am IST
-          - cron: '30 18 * * *'
-        workflow_dispatch:
-      jobs:
-        update-readme:
-          name: Update Readme with Metrics
-          runs-on: ubuntu-latest
-          steps:
-            - uses: anmol098/waka-readme-stats@master
-              with:
-                WAKATIME_API_KEY: ${{ 26244547-c600-4d56-a7a7-4a590ddd9ad3 }}
-                GH_TOKEN: ${{ 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 }}
-
-    <!--END_SECTION:waka-->
+    <img src "https://wakatime.com"><img src="https://wakatime.com/share/@207f8f8e-8ddd-4a3f-917c-092d65854bd6/2513760c-57e3-45c1-8b0c-0f83421c05d4.png"/>
 
 </body>  
 </html>
